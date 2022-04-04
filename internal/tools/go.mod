@@ -7,7 +7,7 @@ require (
 	github.com/fdaines/spm-go v0.11.1
 	github.com/golang-migrate/migrate/v4 v4.15.1
 	github.com/golangci/golangci-lint v1.45.2
-	github.com/kyleconroy/sqlc v1.12.0
+	github.com/kyleconroy/sqlc v1.13.0
 	github.com/lib/pq v1.10.4
 	github.com/maxbrunsfeld/counterfeiter/v6 v6.5.0
 	goa.design/model v1.7.6
@@ -33,7 +33,7 @@ require (
 	github.com/Masterminds/semver v1.5.0 // indirect
 	github.com/OpenPeeDeeP/depguard v1.1.0 // indirect
 	github.com/alexkohler/prealloc v1.0.0 // indirect
-	github.com/antlr/antlr4/runtime/Go/antlr v0.0.0-20211208212222-82c441726976 // indirect
+	github.com/antlr/antlr4/runtime/Go/antlr v0.0.0-20220209173558-ad29539cd2e9 // indirect
 	github.com/apache/arrow/go/arrow v0.0.0-20211013220434-5962184e7a30 // indirect
 	github.com/ashanbrown/forbidigo v1.3.0 // indirect
 	github.com/ashanbrown/makezero v1.1.1 // indirect
@@ -133,14 +133,14 @@ require (
 	github.com/hexops/gotextdiff v1.0.3 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
-	github.com/jackc/pgconn v1.10.1 // indirect
+	github.com/jackc/pgconn v1.11.0 // indirect
 	github.com/jackc/pgerrcode v0.0.0-20201024163028-a0d42d470451 // indirect
 	github.com/jackc/pgio v1.0.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgproto3/v2 v2.2.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20200714003250-2b9c44734f2b // indirect
-	github.com/jackc/pgtype v1.9.1 // indirect
-	github.com/jackc/pgx/v4 v4.14.1 // indirect
+	github.com/jackc/pgtype v1.10.0 // indirect
+	github.com/jackc/pgx/v4 v4.15.0 // indirect
 	github.com/jaschaephraim/lrserver v0.0.0-20171129202958-50d19f603f71 // indirect
 	github.com/jedib0t/go-pretty/v6 v6.1.0 // indirect
 	github.com/jgautheron/goconst v1.5.1 // indirect
@@ -273,7 +273,7 @@ require (
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20211208223120-3a66f561d7aa // indirect
 	google.golang.org/grpc v1.43.0 // indirect
-	google.golang.org/protobuf v1.27.1 // indirect
+	google.golang.org/protobuf v1.28.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.66.2 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
