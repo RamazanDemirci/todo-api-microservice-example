@@ -23,15 +23,15 @@ import (
 	"go.opentelemetry.io/contrib/instrumentation/github.com/gorilla/mux/otelmux"
 	"go.uber.org/zap"
 
-	"github.com/MarioCarrion/todo-api/cmd/internal"
-	internaldomain "github.com/MarioCarrion/todo-api/internal"
-	"github.com/MarioCarrion/todo-api/internal/elasticsearch"
-	"github.com/MarioCarrion/todo-api/internal/envvar"
-	"github.com/MarioCarrion/todo-api/internal/memcached"
-	"github.com/MarioCarrion/todo-api/internal/postgresql"
-	"github.com/MarioCarrion/todo-api/internal/redis"
-	"github.com/MarioCarrion/todo-api/internal/rest"
-	"github.com/MarioCarrion/todo-api/internal/service"
+	"github.com/RamazanDemirci/todo-api-microservice-example/cmd/internal"
+	internaldomain "github.com/RamazanDemirci/todo-api-microservice-example/internal"
+	"github.com/RamazanDemirci/todo-api-microservice-example/internal/elasticsearch"
+	"github.com/RamazanDemirci/todo-api-microservice-example/internal/envvar"
+	"github.com/RamazanDemirci/todo-api-microservice-example/internal/memcached"
+	"github.com/RamazanDemirci/todo-api-microservice-example/internal/postgresql"
+	"github.com/RamazanDemirci/todo-api-microservice-example/internal/redis"
+	"github.com/RamazanDemirci/todo-api-microservice-example/internal/rest"
+	"github.com/RamazanDemirci/todo-api-microservice-example/internal/service"
 )
 
 //go:embed static

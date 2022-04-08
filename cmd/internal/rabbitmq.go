@@ -3,8 +3,8 @@ package internal
 import (
 	"github.com/streadway/amqp"
 
-	"github.com/MarioCarrion/todo-api/internal"
-	"github.com/MarioCarrion/todo-api/internal/envvar"
+	"github.com/todo-api-microservice-example/internal"
+	"github.com/todo-api-microservice-example/internal/envvar"
 )
 
 // RabbitMQ ...

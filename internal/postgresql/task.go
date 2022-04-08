@@ -7,8 +7,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v4"
 
-	"github.com/MarioCarrion/todo-api/internal"
-	"github.com/MarioCarrion/todo-api/internal/postgresql/db"
+	"github.com/todo-api-microservice-example/internal"
+	"github.com/todo-api-microservice-example/internal/postgresql/db"
 )
 
 // Task represents the repository used for interacting with Task records.

@@ -14,10 +14,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/MarioCarrion/todo-api/cmd/internal"
-	internaldomain "github.com/MarioCarrion/todo-api/internal"
-	"github.com/MarioCarrion/todo-api/internal/elasticsearch"
-	"github.com/MarioCarrion/todo-api/internal/envvar"
+	"github.com/todo-api-microservice-example/cmd/internal"
+	internaldomain "github.com/todo-api-microservice-example/internal"
+	"github.com/todo-api-microservice-example/internal/elasticsearch"
+	"github.com/todo-api-microservice-example/internal/envvar"
 )
 
 const rabbitMQConsumerName = "elasticsearch-indexer"

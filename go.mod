@@ -1,4 +1,4 @@
-module github.com/MarioCarrion/todo-api
+module github.com/todo-api-microservice-example
 
 go 1.17
 

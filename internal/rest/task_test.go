@@ -13,9 +13,9 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/gorilla/mux"
 
-	"github.com/MarioCarrion/todo-api/internal"
-	"github.com/MarioCarrion/todo-api/internal/rest"
-	"github.com/MarioCarrion/todo-api/internal/rest/resttesting"
+	"github.com/todo-api-microservice-example/internal"
+	"github.com/todo-api-microservice-example/internal/rest"
+	"github.com/todo-api-microservice-example/internal/rest/resttesting"
 )
 
 func TestTasks_Delete(t *testing.T) {

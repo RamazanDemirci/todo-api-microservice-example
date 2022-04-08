@@ -21,12 +21,12 @@ linters-settings:
     sections:
       - standard
       - default
-      - prefix(github.com/MarioCarrion/todo-api)
+      - prefix(github.com/todo-api-microservice-example)
     section-separators:
       - newLine
   exhaustivestruct:
     struct-patterns:
-      - 'github.com/MarioCarrion/todo-api/internal.*Params'
+      - 'github.com/todo-api-microservice-example/internal.*Params'
   ireturn:
     allow:
       - error
@@ -52,7 +52,7 @@ linters-settings:
       - internal.NewErrorf(
       - internal.WrapErrorf(
     ignorePackageGlobs:
-      - github.com/MarioCarrion/todo-api/* 
+      - github.com/todo-api-microservice-example/* 
 issues:
   exclude-rules:
     # All tests

@@ -9,8 +9,8 @@ import (
 	"github.com/jackc/pgx/v4/pgxpool"
 	_ "github.com/jackc/pgx/v4/stdlib"
 
-	"github.com/MarioCarrion/todo-api/internal"
-	"github.com/MarioCarrion/todo-api/internal/envvar"
+	"github.com/todo-api-microservice-example/internal"
+	"github.com/todo-api-microservice-example/internal/envvar"
 )
 
 // NewPostgreSQL instantiates the PostgreSQL database using configuration defined in environment variables.

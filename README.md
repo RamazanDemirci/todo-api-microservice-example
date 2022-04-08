@@ -142,11 +142,11 @@ Notice that because of the way RabbitMQ and Kafka are being used they are sort o
 To start a local HTTP server that serves a graphical editor:
 
 ```
-mdl serve github.com/MarioCarrion/todo-api/internal/doc -dir docs/diagrams/
+mdl serve github.com/todo-api-microservice-example/internal/doc -dir docs/diagrams/
 ```
 
 To generate JSON artifact for uploading to [structurizr](https://structurizr.com/):
 
 ```
-stz gen github.com/MarioCarrion/todo-api/internal/doc
+stz gen github.com/todo-api-microservice-example/internal/doc
 ```

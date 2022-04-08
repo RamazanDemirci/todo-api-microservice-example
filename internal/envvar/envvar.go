@@ -6,7 +6,7 @@ import (
 
 	"github.com/joho/godotenv"
 
-	"github.com/MarioCarrion/todo-api/internal"
+	"github.com/todo-api-microservice-example/internal"
 )
 
 //go:generate counterfeiter -generate

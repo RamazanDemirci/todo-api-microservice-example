@@ -59,7 +59,7 @@ var _ = Design("ToDo API Microservice Example", "Go microservice tutorial projec
 	})
 
 	System = SoftwareSystem(softwareSystem, "Allows users to interact with their ToDo Tasks", func() {
-		URL("https://github.com/MarioCarrion/todo-api-microservice-example")
+		URL("https://github.com/todo-api-microservice-example-microservice-example")
 
 		PostgreSQL = Container("PostgreSQL", "Stores Tasks records", "PosgreSQL 12.5", func() {
 			Tag(styleDatabase)
